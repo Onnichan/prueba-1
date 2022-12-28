@@ -114,6 +114,21 @@ main{
             transform: rotateY(65deg) rotateX(54deg);
 }
 
+/*****
+Modificaciones
+******/
+
+.qa-red:first-child{
+    position: relative;
+}
+
+.c-atom{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
 @-webkit-keyframes electronAnimation {
     0% {
         -webkit-transform: rotateZ(0deg) translateX(100px) rotateZ(0deg) rotateY(-65deg);
